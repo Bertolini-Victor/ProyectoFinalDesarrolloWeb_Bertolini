@@ -2,4 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.tituloPosts {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 7px;
 }/*# sourceMappingURL=main.css.map */
