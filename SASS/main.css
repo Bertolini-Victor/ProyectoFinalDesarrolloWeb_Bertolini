@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colores de Fondo */
+.bg-personalizado {
+  background-color: black;
+}
+
+.bg-personalizado2 {
+  background-color: rgba(50, 50, 106, 0.837);
+}
+
+/* Colores de Fuente */
+.color-font {
+  color: rgb(248, 9, 9);
+}
+
+.color-font2 {
+  color: black;
+}
+
+/* Color de loguitos */
+.color-imgs {
+  background-color: #4267B2;
+}
+
+.color-ln {
+  background-color: #0072b1;
+}
+
+/* Color de botones */
+.btn-personalizado {
+  background-color: rgba(50, 50, 106, 0.837);
+}/*# sourceMappingURL=main.css.map */

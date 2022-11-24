@@ -1,0 +1,40 @@
+@import "variables";
+@import "reset";
+
+
+/* Colores de Fondo */
+.bg-personalizado {
+    background-color: $colorUno ;
+}
+
+.bg-personalizado2 {
+    background-color: $colorDos;
+}
+
+
+
+/* Colores de Fuente */
+.color-font {
+    color: $colorTres;
+}
+
+.color-font2 {
+    color: $colorUno;
+}
+
+
+/* Color de loguitos */
+.color-imgs {
+    background-color: $colorCuatro;
+}
+
+.color-ln {
+    background-color: $colorCinco;
+}
+
+
+
+/* Color de botones */
+.btn-personalizado {
+    background-color: $colorDos;
+}
