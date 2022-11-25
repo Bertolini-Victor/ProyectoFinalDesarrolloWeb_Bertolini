@@ -1,8 +1,56 @@
+/* Reset general CSS */
 @import "reset";
+
+//Variables personalizadas
 @import "variables";
 
+
+/* Version normal y mobile del titulo de los post*/
 .tituloPosts {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 7px;
+    margin-top: 1rem;
+    @media (max-width: 768px) {
+        margin-top: 1rem;
+    }
+}
+
+
+
+/* Version Mobile del footer */
+.mobile {
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+
+
+/* Version Mobile del post */
+.mobile-post {
+    @media (max-width: 768px) {
+        margin-right: 1rem * 1.5;
+        margin-left: 1rem * 1.5;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+/* Version tablet del post del medio */
+.tablet-post {
+    @media (min-width: 768px) and (max-width: 1024px) {
+        padding-bottom: 1rem * .1;
+        
+    }
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        padding-bottom: 1rem * 1.5;
+    }
+}
+
+.tablet-post-esquinas {
+    @media (min-width: 768px) and (max-width: 1024px) {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
