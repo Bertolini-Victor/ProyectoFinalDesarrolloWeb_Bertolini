@@ -28,3 +28,13 @@
     text-decoration: none;
     color: black;
 }
+
+
+
+/* Version Mobile de la Pag Contacto */
+@media (min-width: 320px) and (max-width: 767px) {
+    .gap-personalizado {
+        display: grid;
+        grid-gap: 1rem * 1.5;
+    }    
+}
