@@ -1,0 +1,7 @@
+@mixin background-color($propiedad) {
+    background-color: $propiedad;
+}
+
+@mixin colorFont($propiedad) {
+    color: $propiedad;
+}

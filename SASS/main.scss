@@ -1,42 +1,44 @@
 @import "variables";
 @import "reset";
+@import "mixins";
+
 
 
 /* Colores de Fondo */
 .bg-personalizado {
-    background-color: $colorUno ;
+    @include background-color($colorUno)
 }
 
 .bg-personalizado2 {
-    background-color: $colorDos;
+    @include background-color($colorDos)
 }
 
 
 
 /* Colores de Fuente */
 .color-font {
-    color: $colorTres;
+    @include colorFont($colorTres);
 }
 
 .color-font2 {
-    color: $colorSeis;
+    @include colorFont($colorSeis);
     font-size: x-large;
 }
 
 /* Color de loguitos */
 .color-imgs {
-    background-color: $colorCuatro;
+    @include background-color($colorCuatro);
 }
 
 .color-ln {
-    background-color: $colorCinco;
+    @include background-color($colorCinco);
 }
 
 
 
 /* Color de botones */
 .btn-personalizado {
-    background-color: $colorDos;
+    @include background-color($colorDos);
 }
 
 
